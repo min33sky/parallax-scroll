@@ -16,7 +16,7 @@ export default function Image({ id }: { id: number }) {
   return (
     <section>
       <div ref={ref}>
-        <img src={`/${id}.webp`} alt="image" />
+        <img src={`/${id}.jpg`} alt="image" />
       </div>
       <motion.h2
         style={{
